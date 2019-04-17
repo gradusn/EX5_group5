@@ -76,7 +76,7 @@ public class QRcode extends AppCompatActivity {
                 Toast.makeText(this,
                         "Content:" + contents + " Format:" + format,
                         Toast.LENGTH_LONG).show();
-                Intent i=new Intent(this,MainActivity.class);
+                Intent i=new Intent(this,Rest_Menu.class);
                 i.putExtra("rest_table",contents);
                 startActivity(i);
 
