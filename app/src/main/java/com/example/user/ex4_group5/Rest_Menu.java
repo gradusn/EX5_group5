@@ -46,7 +46,7 @@ public class Rest_Menu extends AppCompatActivity {
                 String food = dataSnapshot.child("test").getValue(String.class);
                 TextView textView = (TextView) findViewById(R.id.tests);
 
-                textView.setText(food);
+                textView.setText("test");
                 //do what you want with the email
 
             }
